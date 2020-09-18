@@ -36,10 +36,6 @@
   margin-left: .25rem;
 }
 
-.form-item textarea {
-  height: 100%;
-  resize: none;
-}
 
 .form-item select option {
   background-color: black;
@@ -56,6 +52,11 @@
   font-weight: normal;
   font-family: 'Gotham Rounded';
   outline: none;
+}
+
+.form-item textarea {
+  height: 100%;
+  resize: none;
 }
 
 .form-item > input:focus, .form-item > select:focus, .form-item > textarea:focus {
